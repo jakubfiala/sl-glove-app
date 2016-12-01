@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SLDG server</title>
+    <style type="text/css">
+        body, input {
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, td {
+            border: solid 1px grey;
+        }
+
+        thead {
+            background: #ddd;
+        }
+
+        td {
+            padding: 0.5em;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header, main {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Gesture Collection</h1>
+</header>
+
+<main>
+    <table>
+        <thead>
+            <tr>
+                <td>Gesture ID</td>
+                <td>Word</td>
+                <td>Data</td>
+                <td>Date created</td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</main>
+
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/client/html.js"></script>
+<script src="/client/index.js"></script>
+</html>
